@@ -1,21 +1,153 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
-  <head profile="http://gmpg.org/xfn/11">
-    <title>Martijn Thé</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <link rel='canonical' href='http://www.martijnthe.nl' />
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
-  </head>
-  <body style="font-family: 'Abel', sans-serif; font-size:1.2em;">
-    <div style="width: 20em; margin: 0 1.5em;">
-      <h1>martijnthe.nl</h1>
-      <p>Sorry, nothing much here.</p>
-      <p>In the mean time, check out:</p>
+
+<head profile="http://gmpg.org/xfn/11">
+  <title>Martijn Thé</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="canonical" href="http://www.martijnthe.nl" />
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      font-family: 'Abel', sans-serif;
+      font-size: 1.2em;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      clear: both;
+    }
+
+    #column {
+      width: 20em;
+      margin: 0 auto;
+    }
+
+    #buzzwords {
+      margin-bottom: 1em;
+    }
+
+    #buzzwords ul {
+      padding: 0;
+      list-style-type: none;
+    }
+
+    #buzzwords li {
+      display: block;
+      clear: none;
+      float: left;
+      padding: 0.2em;
+      margin: 0.2em;
+      border: 1px solid grey;
+      border-radius: 5px;
+    }
+
+    .clearfix::after {
+      content: " ";
+      display: block;
+      height: 0;
+      clear: both;
+    }
+
+    .avatar {
+      padding-top: 2px;
+      width: 5em;
+      height: 5em;
+      float: right;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="column">
+    <h1>Martijn Th&eacute;</h1>
+    <p>
+      <img class="avatar" src="avatar.jpg"></img>Hi, nice to meet you! I'm a seasoned software engineer. I help startups, scale-ups and large companies tackle
+      product engineering challenges.</p>
+    <p>Focus areas:</p>
+    <ul>
+      <li>Software/firmware for custom, microcontroller-based devices.</li>
+      <li>Bluetooth connectivity for custom devices and phone apps.</li>
+      <li>Designing and building software platforms around custom devices using Web Technology.</li>
+    </ul>
+    <p>I'm available for hire. Ping me on
+      <a href="mailto:post%40martijnthe.nl">post@martijnthe.nl</a>
+    </p>
+
+    <h2>Projects</h2>
+    <p>Some examples of projects I have worked on:</p>
+    <p>For
+      <a href="https://www.theverge.com/2018/2/5/16966530/intel-vaunt-smart-glasses-announced-ar-video" target="_blank">Intel's Vaunt smartglasses</a> project, I worked on the app runtime inside the glasses. The runtime is written in C
+      and runs apps which themselves are written in
+      <a href="https://www.typescriptlang.org" target="_blank">TypeScript</a>. I also helped create an
+      <a href="https://electronjs.org" target="_blank">Electron</a>-based device simulator desktop application that is part of the SDK.</p>
+    <p>At Fitbit, I led the initial proof-of-concept behind the
+      <a href="https://dev.fitbit.com" target="_blank">​JavaScript SDK for the Fitbit Ionic smartwatch</a>​, helping convince the management to pursue a JavaScript based
+      SDK instead of a C based SDK. The runtime is based on
+      <a href="http://jerryscript.net" target="_blank">​JerryScript</a>, a JavaScript interpreter for small embedded systems. It has been productized thereafter and released
+      in the fall of 2017.</p>
+    <p>During my time at
+      <a href="https://www.pebble.com" target="_blank">Pebble</a>, I was the lead for Bluetooth connectivity for all Pebble products. This involved everything from evaluating
+      Bluetooth chips and stacks, writing Bluetooth firmware code, debugging issues using packet sniffers and analyzing statistical
+      data from products in the field to monitor connectivity performance.</p>
+    <p>
+      Download
+      <a href="resume-martijn-the.pdf">my resum&eacute;</a> for more detail.
+    </p>
+
+    <h2>Skills</h2>
+    <p>Some of the things I have experience with:</p>
+    <div id="buzzwords" class="clearfix">
       <ul>
-        <li><a href="https://www.linkedin.com/in/martijnthe">my profile on Linkedin</a></li>
-        <li><a href="https://github.com/martijnthe?tab=activity">my public activity on Github</a></li>
-        <li>Sorry, I'm not on Twitter any more.</li>
+        <li>Firmware</li>
+        <li>Embedded</li>
+        <li>C</li>
+        <li>Bluetooth LE</li>
+        <li>CoreBluetooth</li>
+        <li>ARM Cortex M3/4</li>
+        <li>FreeRTOS</li>
+        <li>Node.js</li>
+        <li>TypeScript</li>
+        <li>Electron</li>
+        <li>Agile</li>
+        <li>Test Driven Development</li>
+        <li>Git</li>
+        <li>React</li>
+        <li>Jest</li>
+        <li>Emscripten</li>
+        <li>WebAssembly</li>
+        <li>HTML/JS/CSS</li>
+        <li>Continuous Integration</li>
+        <li>Travis CI</li>
+        <li>iOS</li>
+        <li>Obj-C</li>
+        <li>Startups</li>
+        <li>Protocol Design</li>
+        <li>API/SDK Design</li>
+        <li>QEMU</li>
+        <li>GCC</li>
+        <li>Debugging</li>
+        <li>GDB</li>
+        <li>JTAG</li>
+        <li>SWD</li>
+        <li>Logic Analyzers</li>
+        <li>JerryScript</li>
+        <li>Python</li>
+        <li>Bazel</li>
       </ul>
     </div>
-  </body>
+
+    <h2>Me on the Interwebs</h2>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/martijnthe" target="_blank">my profile on Linkedin</a>
+      </li>
+      <li>
+        <a href="https://github.com/martijnthe?tab=activity" target="_blank">my public activity on Github</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
 </html>
